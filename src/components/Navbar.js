@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const NavBar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
     <div className="Navigation">
@@ -11,12 +10,6 @@ const NavBar = () => {
         <li>Shops</li>
         <li>Register</li>
         <li>Cart</li>
-      </ul>
-      <button type="button" className="toggle" onClick={() => setNavbarOpen((prev) => !prev)}>
-        {navbarOpen ? 'close' : 'open'}
-      </button>
-      <ul className={`menu-nav${navbarOpen ? ' show-menu' : ''}`}>
-        {/* ... */}
       </ul>
     </div>
   );
