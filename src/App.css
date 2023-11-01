@@ -22,6 +22,7 @@ body {
 .Ham {
   /* height: 0.5em; */
   width: 4em;
+
   /* background-color: white; */
 }
 
@@ -42,7 +43,6 @@ body {
 
 .Close {
   margin-left: 10%;
-
 }
 
 .MobileLinks ul {
@@ -60,7 +60,7 @@ body {
     width: 95%;
     margin-left: 2.5%;
   }
-  
+
   .NavLinks {
     display: flex;
     list-style: none;
@@ -72,4 +72,3 @@ body {
     display: none;
   }
 }
-
