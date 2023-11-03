@@ -11,7 +11,7 @@ const NavBar = () => (
         <li>Cart</li>
       </ul>
     </div>
-    <div>
+    <div className="Inside-ham">
       <p className="Close">X</p>
       <ul>
         <li>Home</li>
