@@ -12,7 +12,9 @@ function App() {
     <>
       <NavBar />
       <section>
-        <SearchBar />
+        <div className="SearchBar">
+          <SearchBar />
+        </div>
         <div className="HomeMenu">
           <OpenShop />
           <PostSingle />
