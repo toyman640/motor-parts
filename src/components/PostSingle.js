@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SingleItem = () => (
+const PostSingle = () => (
   <h2>This is single item component</h2>
 );
 
-export default SingleItem;
+export default PostSingle;
