@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PostSingle = () => (
-  <h2>This is post single item component</h2>
+  <h2 className="Single">This is post single item component</h2>
 );
 
 export default PostSingle;

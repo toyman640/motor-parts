@@ -87,4 +87,8 @@ body {
   .SearchBar {
     text-align: center;
   }
+
+  .Single {
+    color: teal;
+  }
 }
