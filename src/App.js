@@ -8,6 +8,7 @@ import OpenShop from './components/Openshop';
 import SingleItem from './components/SingleItem';
 import PostSingle from './components/PostSingle';
 import CheckShops from './components/CheckShops';
+import Login from './components/LogIn';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/single-item" element={<SingleItem />} />
           <Route path="/post-single-item" element={<PostSingle />} />
           <Route path="/check-shops" element={<CheckShops />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
