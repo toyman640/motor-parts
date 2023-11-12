@@ -91,4 +91,16 @@ body {
   .Single {
     color: teal;
   }
+
+  .LoginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+  }
 }

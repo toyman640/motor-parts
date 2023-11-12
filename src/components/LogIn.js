@@ -1,8 +1,13 @@
 import React from 'react';
 
 const Login = () => (
-  <section>
-    <form className="login-form">
+  <section className="LoginPage">
+    <div>
+      <h2>
+        Login Page
+      </h2>
+    </div>
+    <form className="LoginForm">
       <label htmlFor="username">
         Username:
         <input type="text" name="username" />
@@ -13,6 +18,7 @@ const Login = () => (
       </label>
       <input type="submit" value="Submit" />
     </form>
+    <div />
   </section>
 );
 
